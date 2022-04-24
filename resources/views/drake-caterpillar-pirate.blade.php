@@ -27,6 +27,12 @@
             <aside class="w3-third w3-center">
                 <img class="w3-padding-64 w3-text-blue" width="100%" src="{{asset('img/ships/DRAKE_caterpillar_pirate.jpg')}}" alt="{{@asset('img/ships/DRAKE_caterpillar_pirate.jpg')}}"/>
             </aside>
+
+            <article class="ship-buy w3-twothird">
+                <p>Video donde se muestra el exterior de la nave</p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nwrMJKtNFtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </article>
         </div>
     </section>
 @stop
