@@ -1,0 +1,65 @@
+.material-icons {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-25 { font-size: 25px; }
+.material-icons.md-27 { font-size: 27px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+.w3-content aside{
+    display: flex;
+    align-items: center;
+}
+
+.material-icons.md-48 { font-size: 48px; }
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.test {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-center {
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-center article {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 350px;
+}
+
+.flex-img {
+    width: 100%;
+    height: auto;
+}
