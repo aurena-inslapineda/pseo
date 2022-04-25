@@ -34,7 +34,7 @@ Route::get('/ships', function () {
 Route::get('/ships/drake/caterpillar-pirate', function () {
     return view('drake-caterpillar-pirate', array(
         'titulo' => 'Drake Caterpillar Pirate',
-        'descripcion' => 'Drake caterpillar edicion pirate, nave de segunda mano.',
+        'descripcion' => 'Drake caterpillar edicion pirate, nave de segunda mano, esta en muy buen estado, se vende por motivos ajenos',
         'keywords' => 'second hand, second hand ships, second hand ships argovot, drake, caterpillar, pirate, argovot',
         'banner' => asset('img/banners/home.png'),
     ));

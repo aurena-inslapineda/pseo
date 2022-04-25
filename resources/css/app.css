@@ -56,7 +56,6 @@ main {
 .flex-center article {
     flex: 1 0 21%; /* explanation below */
     margin: 5px;
-    height: 350px;
 }
 
 .flex-img {
